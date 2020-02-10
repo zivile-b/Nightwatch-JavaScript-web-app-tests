@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="14"
+            failures="2"
+            tests="3">
+
+  <testsuite name="qaontimeTests"
+    errors="14" failures="2" hostname="" id="" package="qaontimeTests" skipped="0"
+    tests="3" time="46.88" timestamp="">
+  
+    <testcase name="Should be able to login" classname="qaontimeTests" time="0.6760" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Should be able to create issue" classname="qaontimeTests" time="32.13" assertions="1">  <failure message="Testing if element &lt;.top-pane &gt; div:nth-child(1) &gt; h2:nth-child(1)&gt; contains text: &#34;Bugs&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Bugs&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Should be able to create issue (C:\Users\Bronius\eclipse-workspace\MavenProject\web-app-tests-template\test\tests\qaontimeTests.js:39:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    <failure message="    at Object.Should be able to create issue (C:\Users\Bronius\eclipse-workspace\MavenProject\web-app-tests-template\test\tests\qaontimeTests.js:39:19)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+    <testcase name="Should be able to create issue by function" classname="qaontimeTests" time="14.07" assertions="1">  <failure message="Testing if element &lt;.top-pane &gt; div:nth-child(1) &gt; h2:nth-child(1)&gt; contains text: &#34;Bugs&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Bugs&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Should be able to create issue by function (C:\Users\Bronius\eclipse-workspace\MavenProject\web-app-tests-template\test\tests\qaontimeTests.js:62:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+
+    <failure message="    at Object.Should be able to create issue by function (C:\Users\Bronius\eclipse-workspace\MavenProject\web-app-tests-template\test\tests\qaontimeTests.js:62:19)">    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="first-test-suite"
+    errors="1" failures="0" hostname="" id="" package="first-test-suite" skipped="2"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Should be able to open about us page" classname="first-test-suite">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Should be able to login" classname="first-test-suite">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,974 @@
+17:24:57.375 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+17:24:57.489 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-02-10 17:24:57.567:INFO::main: Logging initialized @745ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:24:57.886 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+17:24:58.418 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+17:24:58.714 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "javascriptEnabled": true,
+  "moz:firefoxOptions": {
+    "prefs": {
+      "browser.tabs.remote.autostart": false,
+      "browser.tabs.remote.autostart.2": false
+    },
+    "log": {
+      "level": "trace"
+    },
+    "args": [
+    ]
+  },
+  "name": "Qaontime Tests"
+}
+17:24:58.715 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+1581348300155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Bronius\\AppData\\Local\\Temp\\rust_mozprofile.juqo2iCA9PNp"
+1581348300185	geckodriver::marionette	DEBUG	Waiting 60s to connect to browser on 127.0.0.1:57997
+1581348301653	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581348301770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581348301770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581348301770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581348301770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581348301864	Marionette	TRACE	Received observer notification profile-after-change
+1581348301961	Marionette	TRACE	Received observer notification toplevel-window-ready
+1581348301994	Marionette	TRACE	Received observer notification command-line-startup
+1581348301995	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1581348302044	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581348305300	Marionette	TRACE	Received observer notification marionette-startup-requested
+1581348305300	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1581348305314	Marionette	TRACE	All scripts recorded.
+1581348305314	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1581348305314	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1581348305314	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1581348305314	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1581348305315	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1581348305315	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1581348305315	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1581348305315	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1581348305315	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1581348305315	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1581348305315	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1581348305316	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1581348305316	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1581348305316	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1581348305316	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1581348305316	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1581348305316	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1581348305316	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1581348305317	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1581348305317	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1581348305317	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1581348305317	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1581348305317	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1581348305317	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1581348305317	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1581348305317	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1581348305318	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1581348305318	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1581348305318	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1581348305318	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1581348305319	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1581348305393	Marionette	INFO	Listening on port 57997
+1581348305397	Marionette	DEBUG	Marionette is listening
+1581348305586	geckodriver::marionette	DEBUG	Connection established on 127.0.0.1:57997. Waiting for Marionette handshake
+1581348305590	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:58013
+1581348305593	geckodriver::marionette	DEBUG	Connected to Marionette
+1581348305598	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"browserName":"firefox"}]
+1581348305659	Marionette	TRACE	[19] Frame script loaded
+1581348305693	Marionette	TRACE	[19] Frame script registered
+1581348305698	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"2af12925-f131-4ab4-89bf-9339fc2de7f0","capabilities":{"browserName":"firefox","browserVersion":"72.0. ... ozprofile.juqo2iCA9PNp","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1581348305725	webdriver::server	DEBUG	<- 200 OK {"value":{"sessionId":"2af12925-f131-4ab4-89bf-9339fc2de7f0","capabilities":{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"72.0.2","moz:accessibilityChecks":false,"moz:buildID":"20200117190643","moz:geckodriverVersion":"0.24.0","moz:headless":false,"moz:processID":13436,"moz:profile":"C:\\Users\\Bronius\\AppData\\Local\\Temp\\rust_mozprofile.juqo2iCA9PNp","moz:shutdownTimeout":60000,"moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"windows","platformVersion":"6.1","rotatable":false,"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify"}}}
+17:25:05.756 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+17:25:05.827 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 2af12925-f131-4ab4-89bf-9339fc2de7f0 (org.openqa.selenium.firefox.GeckoDriverService)
+1581348305873	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/window/maximize {
+  "windowHandle": "current"
+}
+1581348305877	Marionette	DEBUG	0 -> [0,2,"WebDriver:MaximizeWindow",{}]
+1581348306147	Marionette	DEBUG	0 <- [1,2,null,{"x":-8,"y":-8,"width":1616,"height":876}]
+1581348306149	webdriver::server	DEBUG	<- 200 OK {"value":{"x":-8,"y":-8,"width":1616,"height":876}}
+1581348306172	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/url {
+  "url": "http:\u002f\u002fwww.qaontime.com\u002fregister"
+}
+1581348306176	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://www.qaontime.com/register"}]
+1581348306189	Marionette	TRACE	[19] Received DOM event beforeunload for about:blank
+1581348306469	Marionette	TRACE	[19] Received DOM event pagehide for about:blank
+1581348306664	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for http://www.qaontime.com/register/
+1581348306683	Marionette	TRACE	[19] Received DOM event pageshow for http://www.qaontime.com/register/
+1581348306685	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1581348306685	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1581348306702	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/url {
+  "url": "http:\u002f\u002fwww.qaontime.com\u002fregister"
+}
+1581348306712	Marionette	DEBUG	0 -> [0,4,"WebDriver:Navigate",{"url":"http://www.qaontime.com/register"}]
+1581348306807	Marionette	TRACE	[19] Received DOM event beforeunload for http://www.qaontime.com/register/
+1581348306871	Marionette	TRACE	[19] Received DOM event pagehide for http://www.qaontime.com/register/
+1581348306913	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for http://www.qaontime.com/register/
+1581348306925	Marionette	TRACE	[19] Received DOM event pageshow for http://www.qaontime.com/register/
+1581348306925	Marionette	DEBUG	0 <- [1,4,null,{"value":null}]
+1581348306927	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1581348306943	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-login-login]",
+  "using": "css selector"
+}
+1581348306945	Marionette	DEBUG	0 -> [0,5,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-login-login]"}]
+1581348306956	Marionette	DEBUG	0 <- [1,5,null,[{"element-6066-11e4-a52e-4f735466cecf":"785388cd-1770-4846-b26c-f4c69c450883"}]]
+1581348306957	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"785388cd-1770-4846-b26c-f4c69c450883"}]}
+1581348306981	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/element/785388cd-1770-4846-b26c-f4c69c450883/value {
+  "id": "785388cd-1770-4846-b26c-f4c69c450883",
+  "text": "zivile.batuleviciute@yahoo.com",
+  "value": [
+    "z",
+    "i",
+    "v",
+    "i",
+    "l",
+    "e",
+    ".",
+    "b",
+    "a",
+    "t",
+    "u",
+    "l",
+    "e",
+    "v",
+    "i",
+    "c",
+    "i",
+    "u",
+    "t",
+    "e",
+    "@",
+    "y",
+    "a",
+    "h",
+    "o",
+    "o",
+    ".",
+    "c",
+    "o",
+    "m"
+  ]
+}
+1581348306982	Marionette	DEBUG	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"785388cd-1770-4846-b26c-f4c69c450883","text":"zivile.batuleviciute@yahoo.com","value":["z","i","v","i","l","e",".","b","a","t","u","l","e","v","i","c","i","u","t","e","@","y","a","h","o","o",".","c","o","m"]}]
+1581348307009	Marionette	DEBUG	0 <- [1,6,null,{"value":null}]
+1581348307010	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1581348307019	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-login-password]",
+  "using": "css selector"
+}
+1581348307021	Marionette	DEBUG	0 -> [0,7,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-login-password]"}]
+1581348307028	Marionette	DEBUG	0 <- [1,7,null,[{"element-6066-11e4-a52e-4f735466cecf":"a958d5aa-167a-4cea-858b-16e090977899"}]]
+1581348307029	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"a958d5aa-167a-4cea-858b-16e090977899"}]}
+1581348307038	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/element/a958d5aa-167a-4cea-858b-16e090977899/value {
+  "id": "a958d5aa-167a-4cea-858b-16e090977899",
+  "text": "zivile.batuleviciute@yahoo.com",
+  "value": [
+    "z",
+    "i",
+    "v",
+    "i",
+    "l",
+    "e",
+    ".",
+    "b",
+    "a",
+    "t",
+    "u",
+    "l",
+    "e",
+    "v",
+    "i",
+    "c",
+    "i",
+    "u",
+    "t",
+    "e",
+    "@",
+    "y",
+    "a",
+    "h",
+    "o",
+    "o",
+    ".",
+    "c",
+    "o",
+    "m"
+  ]
+}
+1581348307039	Marionette	DEBUG	0 -> [0,8,"WebDriver:ElementSendKeys",{"id":"a958d5aa-167a-4cea-858b-16e090977899","text":"zivile.batuleviciute@yahoo.com","value":["z","i","v","i","l","e",".","b","a","t","u","l","e","v","i","c","i","u","t","e","@","y","a","h","o","o",".","c","o","m"]}]
+1581348307053	Marionette	DEBUG	0 <- [1,8,null,{"value":null}]
+1581348307054	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1581348307061	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-login-loginSubmit",
+  "using": "css selector"
+}
+1581348307062	Marionette	DEBUG	0 -> [0,9,"WebDriver:FindElements",{"using":"css selector","value":"#field-login-loginSubmit"}]
+1581348307063	Marionette	DEBUG	0 <- [1,9,null,[{"element-6066-11e4-a52e-4f735466cecf":"df459670-f33f-4b0a-95c1-b23061e62ee1"}]]
+1581348307064	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"df459670-f33f-4b0a-95c1-b23061e62ee1"}]}
+1581348307071	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/element/df459670-f33f-4b0a-95c1-b23061e62ee1/click {
+  "id": "df459670-f33f-4b0a-95c1-b23061e62ee1"
+}
+1581348307072	Marionette	DEBUG	0 -> [0,10,"WebDriver:ElementClick",{"id":"df459670-f33f-4b0a-95c1-b23061e62ee1"}]
+1581348307084	Marionette	TRACE	[19] Received DOM event beforeunload for http://www.qaontime.com/register/
+1581348307157	Marionette	TRACE	[19] Received DOM event pagehide for http://www.qaontime.com/register/
+1581348307159	Marionette	TRACE	[19] Received DOM event unload for http://www.qaontime.com/register/
+1581348307250	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for http://www.qaontime.com/register/index.php
+1581348307266	Marionette	TRACE	[19] Received DOM event pageshow for http://www.qaontime.com/register/index.php
+1581348307268	Marionette	DEBUG	0 <- [1,10,null,{"value":null}]
+1581348307271	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1581348307284	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "div[id=site-name]",
+  "using": "css selector"
+}
+1581348307290	Marionette	DEBUG	0 -> [0,11,"WebDriver:FindElements",{"using":"css selector","value":"div[id=site-name]"}]
+1581348307313	Marionette	DEBUG	0 <- [1,11,null,[{"element-6066-11e4-a52e-4f735466cecf":"828a6fe5-0c1c-4526-8ba6-c3f421e0f774"}]]
+1581348307315	webdriver::server	DEBUG	<- 200 OK {"value":[{"element-6066-11e4-a52e-4f735466cecf":"828a6fe5-0c1c-4526-8ba6-c3f421e0f774"}]}
+1581348307324	webdriver::server	DEBUG	-> GET /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/element/828a6fe5-0c1c-4526-8ba6-c3f421e0f774/text 
+1581348307343	Marionette	DEBUG	0 -> [0,12,"WebDriver:GetElementText",{"id":"828a6fe5-0c1c-4526-8ba6-c3f421e0f774"}]
+1581348307360	Marionette	DEBUG	0 <- [1,12,null,{"value":"WebIssues"}]
+1581348307361	webdriver::server	DEBUG	<- 200 OK {"value":"WebIssues"}
+1581348307376	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/url {
+  "url": "http:\u002f\u002fwww.qaontime.com\u002fregister\u002fclient\u002findex.php?folder=5"
+}
+1581348307377	Marionette	DEBUG	0 -> [0,13,"WebDriver:Navigate",{"url":"http://www.qaontime.com/register/client/index.php?folder=5"}]
+1581348307380	Marionette	TRACE	[19] Received DOM event beforeunload for http://www.qaontime.com/register/index.php
+1581348307479	Marionette	TRACE	[19] Received DOM event pagehide for http://www.qaontime.com/register/index.php
+1581348307558	Marionette	TRACE	[19] Received DOM event DOMContentLoaded for http://www.qaontime.com/register/index.php?url=%2Fclient%2Findex.php%3Ffolder%3D5
+1581348307577	Marionette	TRACE	[19] Received DOM event pageshow for http://www.qaontime.com/register/index.php?url=%2Fclient%2Findex.php%3Ffolder%3D5
+1581348307578	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1581348307581	webdriver::server	DEBUG	<- 200 OK {"value":null}
+1581348307595	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348307600	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348307603	Marionette	DEBUG	0 <- [1,14,null,[]]
+1581348307604	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348308130	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348308135	Marionette	DEBUG	0 -> [0,15,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348308143	Marionette	DEBUG	0 <- [1,15,null,[]]
+1581348308145	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348308663	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348308667	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348308670	Marionette	DEBUG	0 <- [1,16,null,[]]
+1581348308672	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348309193	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348309196	Marionette	DEBUG	0 -> [0,17,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348309200	Marionette	DEBUG	0 <- [1,17,null,[]]
+1581348309202	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348309726	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348309729	Marionette	DEBUG	0 -> [0,18,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348309733	Marionette	DEBUG	0 <- [1,18,null,[]]
+1581348309735	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348310264	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348310297	Marionette	DEBUG	0 -> [0,19,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348310305	Marionette	DEBUG	0 <- [1,19,null,[]]
+1581348310306	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348310823	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348310827	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348310834	Marionette	DEBUG	0 <- [1,20,null,[]]
+1581348310836	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348311356	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348311360	Marionette	DEBUG	0 -> [0,21,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348311364	Marionette	DEBUG	0 <- [1,21,null,[]]
+1581348311367	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348311885	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348311888	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348311892	Marionette	DEBUG	0 <- [1,22,null,[]]
+1581348311895	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348312414	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348312417	Marionette	DEBUG	0 -> [0,23,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348312424	Marionette	DEBUG	0 <- [1,23,null,[]]
+1581348312426	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348312944	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348312950	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348312955	Marionette	DEBUG	0 <- [1,24,null,[]]
+1581348312958	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348312994	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348312997	Marionette	DEBUG	0 -> [0,25,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348313001	Marionette	DEBUG	0 <- [1,25,null,[]]
+1581348313003	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348313515	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348313517	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348313519	Marionette	DEBUG	0 <- [1,26,null,[]]
+1581348313520	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348314037	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348314040	Marionette	DEBUG	0 -> [0,27,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348314044	Marionette	DEBUG	0 <- [1,27,null,[]]
+1581348314047	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348314559	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348314563	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348314567	Marionette	DEBUG	0 <- [1,28,null,[]]
+1581348314568	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348315083	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348315090	Marionette	DEBUG	0 -> [0,29,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348315097	Marionette	DEBUG	0 <- [1,29,null,[]]
+1581348315099	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348315630	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348315633	Marionette	DEBUG	0 -> [0,30,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348315637	Marionette	DEBUG	0 <- [1,30,null,[]]
+1581348315638	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348316154	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348316158	Marionette	DEBUG	0 -> [0,31,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348316162	Marionette	DEBUG	0 <- [1,31,null,[]]
+1581348316164	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348316683	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348316687	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348316696	Marionette	DEBUG	0 <- [1,32,null,[]]
+1581348316698	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348317216	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348317222	Marionette	DEBUG	0 -> [0,33,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348317226	Marionette	DEBUG	0 <- [1,33,null,[]]
+1581348317229	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348317748	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348317752	Marionette	DEBUG	0 -> [0,34,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348317756	Marionette	DEBUG	0 <- [1,34,null,[]]
+1581348317759	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348318275	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348318278	Marionette	DEBUG	0 -> [0,35,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348318282	Marionette	DEBUG	0 <- [1,35,null,[]]
+1581348318284	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348318306	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348318309	Marionette	DEBUG	0 -> [0,36,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348318313	Marionette	DEBUG	0 <- [1,36,null,[]]
+1581348318315	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348318830	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348318833	Marionette	DEBUG	0 -> [0,37,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348318837	Marionette	DEBUG	0 <- [1,37,null,[]]
+1581348318839	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348319357	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348319361	Marionette	DEBUG	0 -> [0,38,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348319364	Marionette	DEBUG	0 <- [1,38,null,[]]
+1581348319367	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348319884	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348319888	Marionette	DEBUG	0 -> [0,39,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348319890	Marionette	DEBUG	0 <- [1,39,null,[]]
+1581348319893	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348320411	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348320415	Marionette	DEBUG	0 -> [0,40,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348320418	Marionette	DEBUG	0 <- [1,40,null,[]]
+1581348320421	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348320938	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348320942	Marionette	DEBUG	0 -> [0,41,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348320948	Marionette	DEBUG	0 <- [1,41,null,[]]
+1581348320950	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348321467	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348321471	Marionette	DEBUG	0 -> [0,42,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348321475	Marionette	DEBUG	0 <- [1,42,null,[]]
+1581348321478	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348321995	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348321999	Marionette	DEBUG	0 -> [0,43,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348322002	Marionette	DEBUG	0 <- [1,43,null,[]]
+1581348322005	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348322522	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348322526	Marionette	DEBUG	0 -> [0,44,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348322529	Marionette	DEBUG	0 <- [1,44,null,[]]
+1581348322532	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348323048	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348323051	Marionette	DEBUG	0 -> [0,45,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348323055	Marionette	DEBUG	0 <- [1,45,null,[]]
+1581348323058	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348323575	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348323579	Marionette	DEBUG	0 -> [0,46,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348323582	Marionette	DEBUG	0 <- [1,46,null,[]]
+1581348323585	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348323608	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348323612	Marionette	DEBUG	0 -> [0,47,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348323615	Marionette	DEBUG	0 <- [1,47,null,[]]
+1581348323617	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348324133	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348324137	Marionette	DEBUG	0 -> [0,48,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348324141	Marionette	DEBUG	0 <- [1,48,null,[]]
+1581348324143	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348324661	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348324664	Marionette	DEBUG	0 -> [0,49,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348324667	Marionette	DEBUG	0 <- [1,49,null,[]]
+1581348324671	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348325188	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348325191	Marionette	DEBUG	0 -> [0,50,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348325196	Marionette	DEBUG	0 <- [1,50,null,[]]
+1581348325199	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348325716	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348325719	Marionette	DEBUG	0 -> [0,51,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348325722	Marionette	DEBUG	0 <- [1,51,null,[]]
+1581348325727	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348326248	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348326252	Marionette	DEBUG	0 -> [0,52,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348326255	Marionette	DEBUG	0 <- [1,52,null,[]]
+1581348326258	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348326775	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348326778	Marionette	DEBUG	0 -> [0,53,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348326781	Marionette	DEBUG	0 <- [1,53,null,[]]
+1581348326784	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348327300	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348327303	Marionette	DEBUG	0 -> [0,54,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348327305	Marionette	DEBUG	0 <- [1,54,null,[]]
+1581348327309	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348327824	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348327827	Marionette	DEBUG	0 -> [0,55,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348327830	Marionette	DEBUG	0 <- [1,55,null,[]]
+1581348327833	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348328354	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348328357	Marionette	DEBUG	0 -> [0,56,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348328360	Marionette	DEBUG	0 <- [1,56,null,[]]
+1581348328363	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348328880	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348328883	Marionette	DEBUG	0 -> [0,57,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348328886	Marionette	DEBUG	0 <- [1,57,null,[]]
+1581348328889	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348328911	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348328913	Marionette	DEBUG	0 -> [0,58,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348328916	Marionette	DEBUG	0 <- [1,58,null,[]]
+1581348328919	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348329435	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348329438	Marionette	DEBUG	0 -> [0,59,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348329441	Marionette	DEBUG	0 <- [1,59,null,[]]
+1581348329444	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348329960	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348329963	Marionette	DEBUG	0 -> [0,60,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348329966	Marionette	DEBUG	0 <- [1,60,null,[]]
+1581348329970	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348330487	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348330491	Marionette	DEBUG	0 -> [0,61,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348330494	Marionette	DEBUG	0 <- [1,61,null,[]]
+1581348330497	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348331014	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348331017	Marionette	DEBUG	0 -> [0,62,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348331021	Marionette	DEBUG	0 <- [1,62,null,[]]
+1581348331024	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348331541	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348331544	Marionette	DEBUG	0 -> [0,63,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348331547	Marionette	DEBUG	0 <- [1,63,null,[]]
+1581348331551	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348332067	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348332070	Marionette	DEBUG	0 -> [0,64,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348332074	Marionette	DEBUG	0 <- [1,64,null,[]]
+1581348332077	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348332594	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348332598	Marionette	DEBUG	0 -> [0,65,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348332601	Marionette	DEBUG	0 <- [1,65,null,[]]
+1581348332604	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348333121	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348333124	Marionette	DEBUG	0 -> [0,66,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348333127	Marionette	DEBUG	0 <- [1,66,null,[]]
+1581348333130	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348333646	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348333650	Marionette	DEBUG	0 -> [0,67,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348333653	Marionette	DEBUG	0 <- [1,67,null,[]]
+1581348333656	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348334174	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348334177	Marionette	DEBUG	0 -> [0,68,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348334179	Marionette	DEBUG	0 <- [1,68,null,[]]
+1581348334182	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348334205	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348334208	Marionette	DEBUG	0 -> [0,69,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348334211	Marionette	DEBUG	0 <- [1,69,null,[]]
+1581348334214	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348334729	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348334733	Marionette	DEBUG	0 -> [0,70,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348334737	Marionette	DEBUG	0 <- [1,70,null,[]]
+1581348334740	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348335255	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348335258	Marionette	DEBUG	0 -> [0,71,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348335260	Marionette	DEBUG	0 <- [1,71,null,[]]
+1581348335264	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348335779	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348335783	Marionette	DEBUG	0 -> [0,72,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348335785	Marionette	DEBUG	0 <- [1,72,null,[]]
+1581348335789	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348336305	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348336307	Marionette	DEBUG	0 -> [0,73,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348336310	Marionette	DEBUG	0 <- [1,73,null,[]]
+1581348336312	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348336827	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348336831	Marionette	DEBUG	0 -> [0,74,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348336833	Marionette	DEBUG	0 <- [1,74,null,[]]
+1581348336837	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348337353	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348337357	Marionette	DEBUG	0 -> [0,75,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348337359	Marionette	DEBUG	0 <- [1,75,null,[]]
+1581348337363	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348337879	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348337883	Marionette	DEBUG	0 -> [0,76,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348337885	Marionette	DEBUG	0 <- [1,76,null,[]]
+1581348337889	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348338405	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348338409	Marionette	DEBUG	0 -> [0,77,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348338413	Marionette	DEBUG	0 <- [1,77,null,[]]
+1581348338418	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348338934	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348338938	Marionette	DEBUG	0 -> [0,78,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348338940	Marionette	DEBUG	0 <- [1,78,null,[]]
+1581348338944	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348339460	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348339464	Marionette	DEBUG	0 -> [0,79,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348339467	Marionette	DEBUG	0 <- [1,79,null,[]]
+1581348339471	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348339512	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348339516	Marionette	DEBUG	0 -> [0,80,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348339519	Marionette	DEBUG	0 <- [1,80,null,[]]
+1581348339522	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348340040	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348340045	Marionette	DEBUG	0 -> [0,81,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348340048	Marionette	DEBUG	0 <- [1,81,null,[]]
+1581348340052	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348340568	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348340572	Marionette	DEBUG	0 -> [0,82,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348340575	Marionette	DEBUG	0 <- [1,82,null,[]]
+1581348340579	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348341095	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348341099	Marionette	DEBUG	0 -> [0,83,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348341102	Marionette	DEBUG	0 <- [1,83,null,[]]
+1581348341105	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348341621	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348341625	Marionette	DEBUG	0 -> [0,84,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348341629	Marionette	DEBUG	0 <- [1,84,null,[]]
+1581348341633	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348342152	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348342154	Marionette	DEBUG	0 -> [0,85,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348342158	Marionette	DEBUG	0 <- [1,85,null,[]]
+1581348342162	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348342677	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348342680	Marionette	DEBUG	0 -> [0,86,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348342683	Marionette	DEBUG	0 <- [1,86,null,[]]
+1581348342688	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348343209	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348343212	Marionette	DEBUG	0 -> [0,87,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348343214	Marionette	DEBUG	0 <- [1,87,null,[]]
+1581348343218	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348343730	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348343732	Marionette	DEBUG	0 -> [0,88,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348343734	Marionette	DEBUG	0 <- [1,88,null,[]]
+1581348343738	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348344256	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348344281	Marionette	DEBUG	0 -> [0,89,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348344286	Marionette	DEBUG	0 <- [1,89,null,[]]
+1581348344290	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348344802	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".toolbar > a:nth-child(2)",
+  "using": "css selector"
+}
+1581348344804	Marionette	DEBUG	0 -> [0,90,"WebDriver:FindElements",{"using":"css selector","value":".toolbar > a:nth-child(2)"}]
+1581348344808	Marionette	DEBUG	0 <- [1,90,null,[]]
+1581348344812	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348344828	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348344834	Marionette	DEBUG	0 -> [0,91,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348344836	Marionette	DEBUG	0 <- [1,91,null,[]]
+1581348344840	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348345354	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348345357	Marionette	DEBUG	0 -> [0,92,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348345360	Marionette	DEBUG	0 <- [1,92,null,[]]
+1581348345365	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348345881	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348345884	Marionette	DEBUG	0 -> [0,93,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348345886	Marionette	DEBUG	0 <- [1,93,null,[]]
+1581348345892	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348346406	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348346409	Marionette	DEBUG	0 -> [0,94,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348346412	Marionette	DEBUG	0 <- [1,94,null,[]]
+1581348346416	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348346927	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348346930	Marionette	DEBUG	0 -> [0,95,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348346932	Marionette	DEBUG	0 <- [1,95,null,[]]
+1581348346936	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348347463	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348347466	Marionette	DEBUG	0 -> [0,96,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348347470	Marionette	DEBUG	0 <- [1,96,null,[]]
+1581348347475	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348347991	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348347995	Marionette	DEBUG	0 -> [0,97,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348347997	Marionette	DEBUG	0 <- [1,97,null,[]]
+1581348348003	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348348519	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348348523	Marionette	DEBUG	0 -> [0,98,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348348525	Marionette	DEBUG	0 <- [1,98,null,[]]
+1581348348531	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348349047	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348349051	Marionette	DEBUG	0 -> [0,99,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348349053	Marionette	DEBUG	0 <- [1,99,null,[]]
+1581348349056	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348349567	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348349571	Marionette	DEBUG	0 -> [0,100,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348349573	Marionette	DEBUG	0 <- [1,100,null,[]]
+1581348349578	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348350093	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-issueName]",
+  "using": "css selector"
+}
+1581348350097	Marionette	DEBUG	0 -> [0,101,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-issueName]"}]
+1581348350100	Marionette	DEBUG	0 <- [1,101,null,[]]
+1581348350105	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348350127	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348350131	Marionette	DEBUG	0 -> [0,102,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348350133	Marionette	DEBUG	0 <- [1,102,null,[]]
+1581348350139	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348350656	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348350660	Marionette	DEBUG	0 -> [0,103,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348350663	Marionette	DEBUG	0 <- [1,103,null,[]]
+1581348350668	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348351184	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348351188	Marionette	DEBUG	0 -> [0,104,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348351191	Marionette	DEBUG	0 <- [1,104,null,[]]
+1581348351196	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348351712	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348351716	Marionette	DEBUG	0 -> [0,105,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348351719	Marionette	DEBUG	0 <- [1,105,null,[]]
+1581348351724	webdriver::server	DEBUG	<- 200 OK {"value":[]}
+1581348351908	Marionette	TRACE	[25] Frame script loaded
+1581348351932	Marionette	TRACE	[25] Frame script registered
+1581348352240	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-value1]",
+  "using": "css selector"
+}
+1581348352245	Marionette	DEBUG	0 -> [0,106,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-value1]"}]
+1581348352247	Marionette	DEBUG	0 <- [1,106,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581348352255	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175:5\nNoSuchWindowError@chrome://marionette/content/error.js:409:5\nassert.that/<@chrome://marionette/content/assert.js:428:13\nassert.open@chrome://marionette/content/assert.js:183:72\nGeckoDriver.prototype.findElements@chrome://marionette/content/driver.js:2087:22\ndespatch@chrome://marionette/content/server.js:305:40\nexecute@chrome://marionette/content/server.js:275:16\nonPacket/<@chrome://marionette/content/server.js:248:20\nonPacket@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"}}
+1581348352378	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "#field-issues-descriptionText",
+  "using": "css selector"
+}
+1581348352389	Marionette	DEBUG	0 -> [0,107,"WebDriver:FindElements",{"using":"css selector","value":"#field-issues-descriptionText"}]
+1581348352390	Marionette	DEBUG	0 <- [1,107,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581348352394	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175:5\nNoSuchWindowError@chrome://marionette/content/error.js:409:5\nassert.that/<@chrome://marionette/content/assert.js:428:13\nassert.open@chrome://marionette/content/assert.js:183:72\nGeckoDriver.prototype.findElements@chrome://marionette/content/driver.js:2087:22\ndespatch@chrome://marionette/content/server.js:305:40\nexecute@chrome://marionette/content/server.js:275:16\nonPacket/<@chrome://marionette/content/server.js:248:20\nonPacket@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"}}
+1581348352417	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": "input[id=field-issues-okSubmit]",
+  "using": "css selector"
+}
+1581348352419	Marionette	DEBUG	0 -> [0,108,"WebDriver:FindElements",{"using":"css selector","value":"input[id=field-issues-okSubmit]"}]
+1581348352420	Marionette	DEBUG	0 <- [1,108,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581348352423	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175:5\nNoSuchWindowError@chrome://marionette/content/error.js:409:5\nassert.that/<@chrome://marionette/content/assert.js:428:13\nassert.open@chrome://marionette/content/assert.js:183:72\nGeckoDriver.prototype.findElements@chrome://marionette/content/driver.js:2087:22\ndespatch@chrome://marionette/content/server.js:305:40\nexecute@chrome://marionette/content/server.js:275:16\nonPacket/<@chrome://marionette/content/server.js:248:20\nonPacket@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"}}
+1581348352458	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348352460	Marionette	DEBUG	0 -> [0,109,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348352461	Marionette	DEBUG	0 <- [1,109,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581348352464	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175:5\nNoSuchWindowError@chrome://marionette/content/error.js:409:5\nassert.that/<@chrome://marionette/content/assert.js:428:13\nassert.open@chrome://marionette/content/assert.js:183:72\nGeckoDriver.prototype.findElements@chrome://marionette/content/driver.js:2087:22\ndespatch@chrome://marionette/content/server.js:305:40\nexecute@chrome://marionette/content/server.js:275:16\nonPacket/<@chrome://marionette/content/server.js:248:20\nonPacket@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"}}
+1581348352987	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348352992	Marionette	DEBUG	0 -> [0,110,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348352993	Marionette	DEBUG	0 <- [1,110,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581348352999	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175:5\nNoSuchWindowError@chrome://marionette/content/error.js:409:5\nassert.that/<@chrome://marionette/content/assert.js:428:13\nassert.open@chrome://marionette/content/assert.js:183:72\nGeckoDriver.prototype.findElements@chrome://marionette/content/driver.js:2087:22\ndespatch@chrome://marionette/content/server.js:305:40\nexecute@chrome://marionette/content/server.js:275:16\nonPacket/<@chrome://marionette/content/server.js:248:20\nonPacket@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"}}
+1581348353533	webdriver::server	DEBUG	-> POST /session/2af12925-f131-4ab4-89bf-9339fc2de7f0/elements {
+  "value": ".top-pane > div:nth-child(1) > h2:nth-child(1)",
+  "using": "css selector"
+}
+1581348353538	Marionette	DEBUG	0 -> [0,111,"WebDriver:FindElements",{"using":"css selector","value":".top-pane > div:nth-child(1) > h2:nth-child(1)"}]
+1581348353539	Marionette	DEBUG	0 <- [1,111,{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marion ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581348353545	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"no such window","message":"Browsing context has been discarded","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175:5\nNoSuchWindowError@chrome://marionette/content/error.js:409:5\nassert.that/<@chrome://marionette/content/assert.js:428:13\nassert.open@chrome://marionette/content/assert.js:183:72\nGeckoDriver.prototype.findElements@chrome://marionette/content/driver.js:2087:22\ndespatch@chrome://marionette/content/server.js:305:40\nexecute@chrome://marionette/content/server.js:275:16\nonPacket/<@chrome://marionette/content/server.js:248:20\nonPacket@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"}}
+1581348353592	webdriver::server	DEBUG	-> DELETE /session/2af12925-f131-4ab4-89bf-9339fc2de7f0 
+1581348353597	Marionette	DEBUG	0 -> [0,112,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1581348353600	Marionette	INFO	Stopped listening on port 57997
+1581348353676	Marionette	TRACE	Received observer notification quit-application
+1581348353681	Marionette	DEBUG	0 <- [1,112,null,{"cause":"shutdown"}]
+1581348353712	webdriver::server	DEBUG	Deleting session
+1581348353717	Marionette	DEBUG	0 -> [0,113,"Marionette:Quit",{"flags":["eForceQuit"]}]
+1581348353718	Marionette	DEBUG	0 <- [1,113,{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":"WebDriv ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581348353736	Marionette	DEBUG	Closed connection 0
+1581348353966	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1581348353966	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1581348353966	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1581348353966	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1581348353966	Marionette	DEBUG	Resetting recommended pref browser.newtabpage.enabled
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1581348353967	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1581348353968	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1581348353968	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1581348353968	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1581348353968	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1581348353968	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1581348353969	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1581348353969	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1581348353969	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1581348353969	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1581348353969	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1581348353969	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1581348353969	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1581348353969	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1581348353970	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1581348353970	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1581348353970	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1581348353970	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1581348353970	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1581348353971	Marionette	DEBUG	Marionette stopped listening
+1581348354522	geckodriver::marionette	DEBUG	Browser process stopped: exit code: 0
+1581348354682	webdriver::server	DEBUG	<- 200 OK {"value":null}
+17:25:54.686 INFO [ActiveSessions$1.onStop] - Removing session 2af12925-f131-4ab4-89bf-9339fc2de7f0 (org.openqa.selenium.firefox.GeckoDriverService)
+1581348354690	webdriver::server	DEBUG	-> DELETE /session/2af12925-f131-4ab4-89bf-9339fc2de7f0 
+1581348354690	webdriver::server	DEBUG	<- 404 Not Found {"value":{"error":"invalid session id","message":"Tried to run command without establishing a connection","stacktrace":""}}
